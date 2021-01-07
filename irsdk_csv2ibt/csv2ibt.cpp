@@ -44,7 +44,7 @@ SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 #include <stdio.h>
 #include <conio.h>
 #include <stdlib.h>
-#include <math.h>
+#include <cmath>
 #include <string.h>
 #include <conio.h>
 #include <time.h>
@@ -268,6 +268,8 @@ bool init(char *path)
 		if(pIBT != NULL)
 		{
 			logHeaderToIBT(&ick, pIBT);
+			// we read in one line of data when dealing with header, make sure we save it.
+			logDataToIBT(&ick, pIBT);
 			return true;
 		}
 	}

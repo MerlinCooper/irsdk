@@ -237,6 +237,17 @@ enum irsdk_SessionState
 	irsdk_StateCoolDown
 };
 
+enum irsdk_CarLeftRight
+{
+	irsdk_LROff,
+	irsdk_LRClear,			// no cars around us.
+	irsdk_LRCarLeft,		// there is a car to our left.
+	irsdk_LRCarRight,		// there is a car to our right.
+	irsdk_LRCarLeftRight,	// there are cars on each side.
+	irsdk_LR2CarsLeft,		// there are two cars to our left.
+	irsdk_LR2CarsRight		// there are two cars to our right.
+};
+
 enum irsdk_CameraState
 {
 	irsdk_IsSessionScreen          = 0x0001, // the camera tool can only be activated if viewing the session screen (out of car)
@@ -262,6 +273,38 @@ enum irsdk_PitSvFlags
 	irsdk_FuelFill			= 0x0010,
 	irsdk_WindshieldTearoff	= 0x0020,
 	irsdk_FastRepair		= 0x0040
+};
+
+enum irsdk_PitSvStatus
+{
+	// status
+	irsdk_PitSvNone = 0,
+	irsdk_PitSvInProgress,
+	irsdk_PitSvComplete,
+
+	// errors
+	irsdk_PitSvTooFarLeft = 100,
+	irsdk_PitSvTooFarRight,
+	irsdk_PitSvTooFarForward,
+	irsdk_PitSvTooFarBack,
+	irsdk_PitSvBadAngle,
+	irsdk_PitSvCantFixThat,
+};
+
+enum irsdk_PaceMode
+{
+	irsdk_PaceModeSingleFileStart = 0,
+	irsdk_PaceModeDoubleFileStart,
+	irsdk_PaceModeSingleFileRestart,
+	irsdk_PaceModeDoubleFileRestart,
+	irsdk_PaceModeNotPacing,
+};
+
+enum irsdk_PaceFlags
+{
+	irsdk_PaceFlagsEndOfLine = 0x01,
+	irsdk_PaceFlagsFreePass = 0x02,
+	irsdk_PaceFlagsWavedAround = 0x04,
 };
 
 //----
@@ -344,6 +387,7 @@ bool irsdk_isConnected();
 const irsdk_header *irsdk_getHeader();
 const char *irsdk_getData(int index);
 const char *irsdk_getSessionInfoStr();
+int irsdk_getSessionInfoStrUpdate(); // incrementing index that indicates new session info string
 
 const irsdk_varHeader *irsdk_getVarHeaderPtr();
 const irsdk_varHeader *irsdk_getVarHeaderEntry(int index);

@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.26730.10
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30804.86
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "irsdk_ffbforce", "irsdk_ffbforce\irsdk_ffbforce.vcxproj", "{0B4042FE-6809-47BB-A22D-7A9593832AF7}"
 EndProject
@@ -29,6 +29,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 	EndProjectSection
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "irsdk_csv2ibt", "irsdk_csv2ibt\irsdk_csv2ibt.vcxproj", "{2D84622E-A3AF-43D4-976A-C60D5A31C893}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "irsdk_dumpSetup", "irsdk_dumpSetup\dumpSetup.vcxproj", "{4A3E4F91-9563-4DA5-8EE1-130877BD047A}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "irsdk_lapTiming", "irsdk_lapTiming\lapTiming.vcxproj", "{7A82AEE3-388C-40D4-8FAA-1A4407C8356A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -95,6 +99,22 @@ Global
 		{2D84622E-A3AF-43D4-976A-C60D5A31C893}.Release|x64.ActiveCfg = Release|Win32
 		{2D84622E-A3AF-43D4-976A-C60D5A31C893}.Release|x86.ActiveCfg = Release|Win32
 		{2D84622E-A3AF-43D4-976A-C60D5A31C893}.Release|x86.Build.0 = Release|Win32
+		{4A3E4F91-9563-4DA5-8EE1-130877BD047A}.Debug|x64.ActiveCfg = Debug|x64
+		{4A3E4F91-9563-4DA5-8EE1-130877BD047A}.Debug|x64.Build.0 = Debug|x64
+		{4A3E4F91-9563-4DA5-8EE1-130877BD047A}.Debug|x86.ActiveCfg = Debug|Win32
+		{4A3E4F91-9563-4DA5-8EE1-130877BD047A}.Debug|x86.Build.0 = Debug|Win32
+		{4A3E4F91-9563-4DA5-8EE1-130877BD047A}.Release|x64.ActiveCfg = Release|x64
+		{4A3E4F91-9563-4DA5-8EE1-130877BD047A}.Release|x64.Build.0 = Release|x64
+		{4A3E4F91-9563-4DA5-8EE1-130877BD047A}.Release|x86.ActiveCfg = Release|Win32
+		{4A3E4F91-9563-4DA5-8EE1-130877BD047A}.Release|x86.Build.0 = Release|Win32
+		{7A82AEE3-388C-40D4-8FAA-1A4407C8356A}.Debug|x64.ActiveCfg = Debug|x64
+		{7A82AEE3-388C-40D4-8FAA-1A4407C8356A}.Debug|x64.Build.0 = Debug|x64
+		{7A82AEE3-388C-40D4-8FAA-1A4407C8356A}.Debug|x86.ActiveCfg = Debug|Win32
+		{7A82AEE3-388C-40D4-8FAA-1A4407C8356A}.Debug|x86.Build.0 = Debug|Win32
+		{7A82AEE3-388C-40D4-8FAA-1A4407C8356A}.Release|x64.ActiveCfg = Release|x64
+		{7A82AEE3-388C-40D4-8FAA-1A4407C8356A}.Release|x64.Build.0 = Release|x64
+		{7A82AEE3-388C-40D4-8FAA-1A4407C8356A}.Release|x86.ActiveCfg = Release|Win32
+		{7A82AEE3-388C-40D4-8FAA-1A4407C8356A}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -66,7 +66,15 @@ public:
 	bool getNextData();
 	int getDataCount() { return m_diskSubHeader.sessionRecordCount; }
 
+	// return how many variables this .ibt file has in the header
+	int getNumVars();
+
 	int getVarIdx(const char *name);
+
+	// get info on the var
+	const char* getVarName(int idx);
+	const char* getVarDesc(int idx);
+	const char* getVarUnit(int idx);
 
 	// what is the base type of the data
 	irsdk_VarType getVarType(int idx);
@@ -92,6 +100,8 @@ public:
 
 	// 1 success, 0 failure, -n minimum buffer size
 	int getSessionStrVal(const char *path, char *val, int valLen);
+	// get the whole string
+	const char *getSessionStr() { return m_sessionInfoString; }
 
 protected:
 

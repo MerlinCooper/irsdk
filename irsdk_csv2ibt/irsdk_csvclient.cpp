@@ -67,7 +67,11 @@ bool irsdkCSVClient::openFile(const char *path)
 
 			if(type == ltYAMLStart || type == ltYAMLContent || type == ltYAMLEnd)
 			{
-				strcpy(yamlStr, line); //****FixMe, not safe, keep track of string length and don't overflow buffer
+				// for now only support one yaml string
+				if(type == ltYAMLStart)
+					yamlStr[0] = '\0';
+
+				strcat(yamlStr, line); //****FixMe, not safe, keep track of string length and don't overflow buffer
 			}
 			else if(type == ltHeader)
 			{
@@ -347,7 +351,7 @@ void irsdkCSVClient::parceNameAndUnit(const char *str, irsdk_varHeader &head, in
 				offset = 0;
 				isUnit = true;
 			}
-			else if(str[0] == ']' || str[0] == ' ' || str[0] == '\t')
+			else if(str[0] == ']' || str[0] == ' ' || str[0] == '\t' || str[0] == '\n' || str[0] == '\r')
 			{
 				// do nothing
 			}
@@ -506,37 +510,44 @@ char* irsdkCSVClient::stripEnds(char *st)
 	{
 		while(st[0] == ' ' || st[0] == '\t')
 			st++;
-		while(st[0] && (st[strlen(st)-1] == ' ' || st[strlen(st)-1] == '\t'))
+		while(st[0] && (st[strlen(st)-1] == ' ' || st[strlen(st)-1] == '\t' || st[strlen(st)-1] == '\n' || st[strlen(st)-1] == '\r'))
 			st[strlen(st)-1] = '\0';
 	}
 
 	return st;
 }
 
+//****Warning, this modifies baseStr!
 char* irsdkCSVClient::getNextElement(char *baseStr)
 {
-	static char* str;
+	static char* str = NULL;
 
 	// reset string pointer, if provided
 	if(baseStr)
 		str = baseStr;
 
-	char *s = str;
-	if(str)
-	{
-		while(str[0] && str[0] != ',')
-		{
-			str++;
-		}
+	// check that we have any string left before processing
+	if(!str || *str == '\0')
+		return NULL;
 
-		if(str[0] == ',')
-		{
-			str[0] = '\0';
-			str++;
-		}
-		else if(str[0] == '\0')
-			s = NULL;
+	// stash off the start of the string
+	char *s = str;
+
+	// and search for a delimiter or the end of the string
+	while(str[0] && str[0] != ',' && str[0] != '\n' && str[0] != '\r')
+	{
+		str++;
 	}
+
+	// zero the delimiter if we find it
+	// making sure to eat them all up
+	while(str[0] == ',' || str[0] == '\n' || str[0] == '\r')
+	{
+		str[0] = '\0';
+		str++;
+	}
+
+	// return the segment we found
 	return s;
 }
 

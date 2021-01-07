@@ -118,6 +118,15 @@ bool irsdkDiskClient::getNextData()
 	return false;
 }
 
+// return how many variables this .ibt file has in the header
+int irsdkDiskClient::getNumVars()
+{
+	if(m_ibtFile)
+		return m_header.numVars;
+
+	return -1;
+}
+
 int irsdkDiskClient::getVarIdx(const char *name)
 {
 	if(m_ibtFile && name)
@@ -148,6 +157,55 @@ irsdk_VarType irsdkDiskClient::getVarType(int idx)
 	}
 
 	return irsdk_char;
+}
+
+// get info on the var
+const char* irsdkDiskClient::getVarName(int idx)
+{
+	if(m_ibtFile)
+	{
+		if(idx >= 0 && idx < m_header.numVars)
+		{
+			return m_varHeaders[idx].name;
+		}
+
+		//invalid variable index
+		assert(false);
+	}
+
+	return NULL;
+}
+
+const char* irsdkDiskClient::getVarDesc(int idx)
+{
+	if(m_ibtFile)
+	{
+		if(idx >= 0 && idx < m_header.numVars)
+		{
+			return m_varHeaders[idx].desc;
+		}
+
+		//invalid variable index
+		assert(false);
+	}
+
+	return NULL;
+}
+
+const char* irsdkDiskClient::getVarUnit(int idx)
+{
+	if(m_ibtFile)
+	{
+		if(idx >= 0 && idx < m_header.numVars)
+		{
+			return m_varHeaders[idx].unit;
+		}
+
+		//invalid variable index
+		assert(false);
+	}
+
+	return NULL;
 }
 
 int irsdkDiskClient::getVarCount(int idx)

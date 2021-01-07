@@ -42,15 +42,10 @@ public:
 		, m_varBuf(NULL)
 		, m_varCount(0)
 	{
+		//****FixMe, need to strip out SessionLogInfo: from preexisting yaml string!
 		const char dummyStr[] =  
 			"---\n"
 			"WeekendInfo:\n"
-			"SessionLogInfo:\n"
-			" SessionStartDate: 2016-10-11 1:59:23\n"
-			" SessionStartTime: 0.0\n"
-			" SessionEndTime: 1.0\n"
-			" SessionLapCount: 1\n"
-			" SessionRecordCount: 100\n"
 			"...\n";
 		memcpy(yamlStr, dummyStr, strlen(dummyStr) * sizeof(char));
 	}
