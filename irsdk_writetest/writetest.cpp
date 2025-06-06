@@ -33,7 +33,7 @@ SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 //#define LOG_TO_DISPLAY
 
 // Uncomment to log to ascii CSV format instead of binary IBT format
-//#define LOG_TO_CSV
+#define LOG_TO_CSV
 
 // Uncomment to log only when driver in car
 //#define LOG_IN_CAR_ONLY

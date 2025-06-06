@@ -1,0 +1,1768 @@
+---
+WeekendInfo:
+ TrackName: roadamerica full
+ TrackID: 18
+ TrackLength: 6.41 km
+ TrackDisplayName: Road America
+ TrackDisplayShortName: Road America
+ TrackConfigName: Full Course
+ TrackCity: Elkhart Lake
+ TrackCountry: USA
+ TrackAltitude: 324.74 m
+ TrackLatitude: 43.797927 m
+ TrackLongitude: -87.989702 m
+ TrackNorthOffset: 1.0205 rad
+ TrackNumTurns: 14
+ TrackPitSpeedLimit: 72.00 kph
+ TrackType: road course
+ TrackDirection: neutral
+ TrackWeatherType: Generated / Dynamic Sky
+ TrackSkies: Partly Cloudy
+ TrackSurfaceTemp: 38.24 C
+ TrackAirTemp: 23.99 C
+ TrackAirPressure: 28.79 Hg
+ TrackWindVel: 3.10 m/s
+ TrackWindDir: 3.37 rad
+ TrackRelativeHumidity: 38 %
+ TrackFogLevel: 0 %
+ TrackCleanup: 1
+ TrackDynamicTrack: 1
+ TrackVersion: 2020.11.28.01
+ SeriesID: 228
+ SeasonID: 3059
+ SessionID: 144442529
+ SubSessionID: 36772111
+ LeagueID: 0
+ Official: 1
+ RaceWeek: 3
+ EventType: Practice
+ Category: Road
+ SimMode: full
+ TeamRacing: 0
+ MinDrivers: 0
+ MaxDrivers: 1
+ DCRuleSet: None
+ QualifierMustStartRace: 0
+ NumCarClasses: 1
+ NumCarTypes: 7
+ HeatRacing: 0
+ BuildType: Release
+ BuildTarget: Members
+ BuildVersion: 2020.12.21.02
+ WeekendOptions:
+  NumStarters: 30
+  StartingGrid: 2x2 inline pole on left
+  QualifyScoring: best lap
+  CourseCautions: off
+  StandingStart: 1
+  ShortParadeLap: 0
+  Restarts: single file
+  WeatherType: Generated / Dynamic Sky
+  Skies: Partly Cloudy
+  WindDirection: N
+  WindSpeed: 3.22 km/h
+  WeatherTemp: 25.56 C
+  RelativeHumidity: 55 %
+  FogLevel: 0 %
+  TimeOfDay: 12:00 pm
+  Date: 2021-04-01
+  EarthRotationSpeedupFactor: 1
+  Unofficial: 0
+  CommercialMode: consumer
+  NightMode: variable
+  IsFixedSetup: 0
+  StrictLapsChecking: default
+  HasOpenRegistration: 1
+  HardcoreLevel: 1
+  NumJokerLaps: 0
+  IncidentLimit: unlimited
+  FastRepairsLimit: 0
+  GreenWhiteCheckeredLimit: 0
+ TelemetryOptions:
+  TelemetryDiskFile: ""
+
+SessionInfo:
+ Sessions:
+ - SessionNum: 0
+   SessionLaps: unlimited
+   SessionTime: 7200.0000 sec
+   SessionNumLapsToAvg: 0
+   SessionType: Practice
+   SessionTrackRubberState: moderate usage
+   SessionName: PRACTICE
+   SessionSubType: 
+   SessionSkipped: 0
+   SessionRunGroupsUsed: 1
+   ResultsPositions:
+   - Position: 1
+     ClassPosition: 0
+     CarIdx: 1
+     Lap: 2
+     Time: 127.8633
+     FastestLap: 2
+     FastestTime: 127.8633
+     LastTime: 127.8633
+     LapsLed: 0
+     LapsComplete: 2
+     JokerLapsComplete: 0
+     LapsDriven: 0.000
+     Incidents: 0
+     ReasonOutId: 0
+     ReasonOutStr: Running
+   ResultsFastestLap:
+   - CarIdx: 1
+     FastestLap: 2
+     FastestTime: 127.8633
+   ResultsAverageLapTime: -1.0000
+   ResultsNumCautionFlags: 0
+   ResultsNumCautionLaps: 0
+   ResultsNumLeadChanges: 0
+   ResultsLapsComplete: -1
+   ResultsOfficial: 0
+
+CameraInfo:
+ Groups:
+ - GroupNum: 1
+   GroupName: Nose
+   Cameras:
+   - CameraNum: 1
+     CameraName: CamNose
+ - GroupNum: 2
+   GroupName: Gearbox
+   Cameras:
+   - CameraNum: 1
+     CameraName: CamGearbox
+ - GroupNum: 3
+   GroupName: Roll Bar
+   Cameras:
+   - CameraNum: 1
+     CameraName: CamRoll Bar
+ - GroupNum: 4
+   GroupName: LF Susp
+   Cameras:
+   - CameraNum: 1
+     CameraName: CamLF Susp
+ - GroupNum: 5
+   GroupName: LR Susp
+   Cameras:
+   - CameraNum: 1
+     CameraName: CamLR Susp
+ - GroupNum: 6
+   GroupName: Gyro
+   Cameras:
+   - CameraNum: 1
+     CameraName: CamGyro
+ - GroupNum: 7
+   GroupName: RF Susp
+   Cameras:
+   - CameraNum: 1
+     CameraName: CamRF Susp
+ - GroupNum: 8
+   GroupName: RR Susp
+   Cameras:
+   - CameraNum: 1
+     CameraName: CamRR Susp
+ - GroupNum: 9
+   GroupName: Cockpit
+   Cameras:
+   - CameraNum: 1
+     CameraName: CamCockpit
+ - GroupNum: 10
+   GroupName: Scenic
+   IsScenic: true
+   Cameras:
+   - CameraNum: 1
+     CameraName: Scenic_02
+   - CameraNum: 2
+     CameraName: Scenic_04
+   - CameraNum: 3
+     CameraName: Scenic_10
+   - CameraNum: 4
+     CameraName: Scenic_11
+   - CameraNum: 5
+     CameraName: Scenic_12
+   - CameraNum: 6
+     CameraName: Scenic_09
+   - CameraNum: 7
+     CameraName: Scenic_14
+   - CameraNum: 8
+     CameraName: Scenic_05
+   - CameraNum: 9
+     CameraName: Scenic_01
+   - CameraNum: 10
+     CameraName: Scenic_15
+   - CameraNum: 11
+     CameraName: Scenic_16
+   - CameraNum: 12
+     CameraName: Scenic_13
+   - CameraNum: 13
+     CameraName: Scenic_03
+   - CameraNum: 14
+     CameraName: Scenic_07
+   - CameraNum: 15
+     CameraName: Scenic_08
+ - GroupNum: 11
+   GroupName: TV1
+   Cameras:
+   - CameraNum: 1
+     CameraName: CamTV1_00
+   - CameraNum: 2
+     CameraName: CamTV1_00b
+   - CameraNum: 3
+     CameraName: CamTV1_01
+   - CameraNum: 4
+     CameraName: CamTV1_01b
+   - CameraNum: 5
+     CameraName: CamTV1_03
+   - CameraNum: 6
+     CameraName: CamTV1_04b
+   - CameraNum: 7
+     CameraName: CamTV1_04
+   - CameraNum: 8
+     CameraName: CamTV1_06b
+   - CameraNum: 9
+     CameraName: CamTV1_05
+   - CameraNum: 10
+     CameraName: CamTV1_07
+   - CameraNum: 11
+     CameraName: CamTV1_08
+   - CameraNum: 12
+     CameraName: CamTV1_09b
+   - CameraNum: 13
+     CameraName: CamTV1_09
+   - CameraNum: 14
+     CameraName: CamTV1_10b
+   - CameraNum: 15
+     CameraName: CamTV1_10
+   - CameraNum: 16
+     CameraName: CamTV1_11
+   - CameraNum: 17
+     CameraName: CamTV1_11b
+   - CameraNum: 18
+     CameraName: CamTV1_12b
+   - CameraNum: 19
+     CameraName: CamTV1_12
+   - CameraNum: 20
+     CameraName: CamTV1_14b
+   - CameraNum: 21
+     CameraName: CamTV1_14
+   - CameraNum: 22
+     CameraName: CamTV1_13b
+   - CameraNum: 23
+     CameraName: CamTV1_13
+   - CameraNum: 24
+     CameraName: CamTV1_15b
+   - CameraNum: 25
+     CameraName: CamTV1_15
+   - CameraNum: 26
+     CameraName: CamTV1_16b
+   - CameraNum: 27
+     CameraName: CamTV1_16
+   - CameraNum: 28
+     CameraName: CamTV1_17b
+   - CameraNum: 29
+     CameraName: CamTV1_18b
+   - CameraNum: 30
+     CameraName: CamTV1_18
+   - CameraNum: 31
+     CameraName: CamTV1_03b
+   - CameraNum: 32
+     CameraName: CamTV1_06
+   - CameraNum: 33
+     CameraName: CamTV1_17
+ - GroupNum: 12
+   GroupName: TV2
+   Cameras:
+   - CameraNum: 1
+     CameraName: CamTV2_20b
+   - CameraNum: 2
+     CameraName: CamTV2_20
+   - CameraNum: 3
+     CameraName: CamTV2_00
+   - CameraNum: 4
+     CameraName: CamTV2_00b
+   - CameraNum: 5
+     CameraName: CamTV2_01b
+   - CameraNum: 6
+     CameraName: CamTV2_02
+   - CameraNum: 7
+     CameraName: CamTV2_02b
+   - CameraNum: 8
+     CameraName: CamTV2_03
+   - CameraNum: 9
+     CameraName: CamTV2_03b
+   - CameraNum: 10
+     CameraName: CamTV2_04b
+   - CameraNum: 11
+     CameraName: CamTV2_05b
+   - CameraNum: 12
+     CameraName: CamTV2_05
+   - CameraNum: 13
+     CameraName: CamTV2_06
+   - CameraNum: 14
+     CameraName: CamTV2_06b
+   - CameraNum: 15
+     CameraName: CamTV2_07
+   - CameraNum: 16
+     CameraName: CamTV2_07b
+   - CameraNum: 17
+     CameraName: CamTV2_08
+   - CameraNum: 18
+     CameraName: CamTV2_09
+   - CameraNum: 19
+     CameraName: CamTV2_10
+   - CameraNum: 20
+     CameraName: CamTV2_10b
+   - CameraNum: 21
+     CameraName: CamTV2_11
+   - CameraNum: 22
+     CameraName: CamTV2_11b
+   - CameraNum: 23
+     CameraName: CamTV2_12
+   - CameraNum: 24
+     CameraName: CamTV2_12b
+   - CameraNum: 25
+     CameraName: CamTV2_13
+   - CameraNum: 26
+     CameraName: CamTV2_14
+   - CameraNum: 27
+     CameraName: CamTV2_15b
+   - CameraNum: 28
+     CameraName: CamTV2_15
+   - CameraNum: 29
+     CameraName: CamTV2_16
+   - CameraNum: 30
+     CameraName: CamTV2_17
+   - CameraNum: 31
+     CameraName: CamTV2_17b
+   - CameraNum: 32
+     CameraName: CamTV2_18b
+   - CameraNum: 33
+     CameraName: CamTV2_18
+   - CameraNum: 34
+     CameraName: CamTV2_16b
+   - CameraNum: 35
+     CameraName: CamTV2_01
+   - CameraNum: 36
+     CameraName: CamTV2_08b
+   - CameraNum: 37
+     CameraName: CamTV2_19
+   - CameraNum: 38
+     CameraName: CamTV2_04
+ - GroupNum: 13
+   GroupName: TV3
+   Cameras:
+   - CameraNum: 1
+     CameraName: CamTV3_00
+   - CameraNum: 2
+     CameraName: CamTV3_01
+   - CameraNum: 3
+     CameraName: CamTV3_01b
+   - CameraNum: 4
+     CameraName: CamTV3_03
+   - CameraNum: 5
+     CameraName: CamTV3_02
+   - CameraNum: 6
+     CameraName: CamTV3_04
+   - CameraNum: 7
+     CameraName: CamTV3_04b
+   - CameraNum: 8
+     CameraName: CamTV3_06
+   - CameraNum: 9
+     CameraName: CamTV3_06b
+   - CameraNum: 10
+     CameraName: CamTV3_07
+   - CameraNum: 11
+     CameraName: CamTV3_08
+   - CameraNum: 12
+     CameraName: CamTV3_09
+   - CameraNum: 13
+     CameraName: CamTV3_09b
+   - CameraNum: 14
+     CameraName: CamTV3_10
+   - CameraNum: 15
+     CameraName: CamTV3_11
+   - CameraNum: 16
+     CameraName: CamTV3_12b
+   - CameraNum: 17
+     CameraName: CamTV3_12
+   - CameraNum: 18
+     CameraName: CamTV3_13b
+   - CameraNum: 19
+     CameraName: CamTV3_14
+   - CameraNum: 20
+     CameraName: CamTV3_05
+   - CameraNum: 21
+     CameraName: CamTV3_05b
+   - CameraNum: 22
+     CameraName: CamTV3_15
+   - CameraNum: 23
+     CameraName: CamTV3_00b
+   - CameraNum: 24
+     CameraName: CamTV3_13
+   - CameraNum: 25
+     CameraName: CamTV3_10b
+ - GroupNum: 14
+   GroupName: TV Static
+   Cameras:
+   - CameraNum: 1
+     CameraName: CamTV4_08
+   - CameraNum: 2
+     CameraName: CamTV4_07
+   - CameraNum: 3
+     CameraName: CamTV4_09
+   - CameraNum: 4
+     CameraName: CamTV4_10
+   - CameraNum: 5
+     CameraName: CamTV4_11
+   - CameraNum: 6
+     CameraName: CamTV4_12
+   - CameraNum: 7
+     CameraName: CamTV4_13
+   - CameraNum: 8
+     CameraName: CamTV4_14
+   - CameraNum: 9
+     CameraName: CamTV4_15
+   - CameraNum: 10
+     CameraName: CamTV4_02
+   - CameraNum: 11
+     CameraName: CamTV4_00
+   - CameraNum: 12
+     CameraName: CamTV4_01
+   - CameraNum: 13
+     CameraName: CamTV4_03
+   - CameraNum: 14
+     CameraName: CamTV4_04
+   - CameraNum: 15
+     CameraName: CamTV4_05
+   - CameraNum: 16
+     CameraName: CamTV4_06
+   - CameraNum: 17
+     CameraName: CamTV4_06b
+   - CameraNum: 18
+     CameraName: CamTV4_17
+   - CameraNum: 19
+     CameraName: CamTV4_16
+   - CameraNum: 20
+     CameraName: CamTV4_18
+   - CameraNum: 21
+     CameraName: CamTV4_19
+   - CameraNum: 22
+     CameraName: CamTV4_20
+   - CameraNum: 23
+     CameraName: CamTV4_21
+   - CameraNum: 24
+     CameraName: CamTV4_23
+   - CameraNum: 25
+     CameraName: CamTV4_22
+   - CameraNum: 26
+     CameraName: CamTV4_24
+ - GroupNum: 15
+   GroupName: TV Mixed
+   Cameras:
+   - CameraNum: 1
+     CameraName: CamTV1_00
+   - CameraNum: 2
+     CameraName: CamTV1_00b
+   - CameraNum: 3
+     CameraName: CamTV1_01
+   - CameraNum: 4
+     CameraName: CamTV1_01b
+   - CameraNum: 5
+     CameraName: CamTV1_03
+   - CameraNum: 6
+     CameraName: CamTV1_03b
+   - CameraNum: 7
+     CameraName: CamTV1_04
+   - CameraNum: 8
+     CameraName: CamTV1_04b
+   - CameraNum: 9
+     CameraName: CamTV1_05
+   - CameraNum: 10
+     CameraName: CamTV1_06
+   - CameraNum: 11
+     CameraName: CamTV1_06b
+   - CameraNum: 12
+     CameraName: CamTV1_07
+   - CameraNum: 13
+     CameraName: CamTV1_08
+   - CameraNum: 14
+     CameraName: CamTV1_09
+   - CameraNum: 15
+     CameraName: CamTV1_09b
+   - CameraNum: 16
+     CameraName: CamTV1_10
+   - CameraNum: 17
+     CameraName: CamTV1_11
+   - CameraNum: 18
+     CameraName: CamTV1_12
+   - CameraNum: 19
+     CameraName: CamTV1_12b
+   - CameraNum: 20
+     CameraName: CamTV1_13
+   - CameraNum: 21
+     CameraName: CamTV1_13b
+   - CameraNum: 22
+     CameraName: CamTV1_14
+   - CameraNum: 23
+     CameraName: CamTV1_15
+   - CameraNum: 24
+     CameraName: CamTV1_15b
+   - CameraNum: 25
+     CameraName: CamTV1_16
+   - CameraNum: 26
+     CameraName: CamTV1_16b
+   - CameraNum: 27
+     CameraName: CamTV1_17
+   - CameraNum: 28
+     CameraName: CamTV1_17b
+   - CameraNum: 29
+     CameraName: CamTV1_18
+   - CameraNum: 30
+     CameraName: CamTV1_18b
+   - CameraNum: 31
+     CameraName: CamTV2_00
+   - CameraNum: 32
+     CameraName: CamTV2_00b
+   - CameraNum: 33
+     CameraName: CamTV2_01
+   - CameraNum: 34
+     CameraName: CamTV2_01b
+   - CameraNum: 35
+     CameraName: CamTV2_02
+   - CameraNum: 36
+     CameraName: CamTV2_02b
+   - CameraNum: 37
+     CameraName: CamTV2_03
+   - CameraNum: 38
+     CameraName: CamTV2_03b
+   - CameraNum: 39
+     CameraName: CamTV2_04
+   - CameraNum: 40
+     CameraName: CamTV2_04b
+   - CameraNum: 41
+     CameraName: CamTV2_05
+   - CameraNum: 42
+     CameraName: CamTV2_05b
+   - CameraNum: 43
+     CameraName: CamTV2_06
+   - CameraNum: 44
+     CameraName: CamTV2_06b
+   - CameraNum: 45
+     CameraName: CamTV2_07
+   - CameraNum: 46
+     CameraName: CamTV2_07b
+   - CameraNum: 47
+     CameraName: CamTV2_08
+   - CameraNum: 48
+     CameraName: CamTV2_08b
+   - CameraNum: 49
+     CameraName: CamTV2_09
+   - CameraNum: 50
+     CameraName: CamTV2_10
+   - CameraNum: 51
+     CameraName: CamTV2_10b
+   - CameraNum: 52
+     CameraName: CamTV2_12
+   - CameraNum: 53
+     CameraName: CamTV2_12b
+   - CameraNum: 54
+     CameraName: CamTV2_13
+   - CameraNum: 55
+     CameraName: CamTV2_14
+   - CameraNum: 56
+     CameraName: CamTV2_15
+   - CameraNum: 57
+     CameraName: CamTV2_15b
+   - CameraNum: 58
+     CameraName: CamTV2_16
+   - CameraNum: 59
+     CameraName: CamTV2_16b
+   - CameraNum: 60
+     CameraName: CamTV2_17
+   - CameraNum: 61
+     CameraName: CamTV2_17b
+   - CameraNum: 62
+     CameraName: CamTV2_18
+   - CameraNum: 63
+     CameraName: CamTV2_18b
+   - CameraNum: 64
+     CameraName: CamTV2_19
+   - CameraNum: 65
+     CameraName: CamTV2_20
+   - CameraNum: 66
+     CameraName: CamTV2_20b
+   - CameraNum: 67
+     CameraName: CamTV3_01
+   - CameraNum: 68
+     CameraName: CamTV3_01b
+   - CameraNum: 69
+     CameraName: CamTV3_02
+   - CameraNum: 70
+     CameraName: CamTV3_04
+   - CameraNum: 71
+     CameraName: CamTV3_04b
+   - CameraNum: 72
+     CameraName: CamTV3_05
+   - CameraNum: 73
+     CameraName: CamTV3_05b
+   - CameraNum: 74
+     CameraName: CamTV3_06
+   - CameraNum: 75
+     CameraName: CamTV3_06b
+   - CameraNum: 76
+     CameraName: CamTV3_07
+   - CameraNum: 77
+     CameraName: CamTV3_10
+   - CameraNum: 78
+     CameraName: CamTV3_10b
+   - CameraNum: 79
+     CameraName: CamTV3_11
+   - CameraNum: 80
+     CameraName: CamTV3_12
+   - CameraNum: 81
+     CameraName: CamTV3_12b
+   - CameraNum: 82
+     CameraName: CamTV3_13
+   - CameraNum: 83
+     CameraName: CamTV3_14
+   - CameraNum: 84
+     CameraName: CamTV3_09b
+   - CameraNum: 85
+     CameraName: CamTV2_11b
+   - CameraNum: 86
+     CameraName: CamTV4_13
+   - CameraNum: 87
+     CameraName: CamRoll Bar
+   - CameraNum: 88
+     CameraName: CamTV4_03
+ - GroupNum: 16
+   GroupName: Pit Lane
+   Cameras:
+   - CameraNum: 1
+     CameraName: CamPit Lane 03
+   - CameraNum: 2
+     CameraName: CamPit Lane
+   - CameraNum: 3
+     CameraName: CamPit Lane 02
+   - CameraNum: 4
+     CameraName: CamPit Lane 01
+ - GroupNum: 17
+   GroupName: PitLane 2
+   Cameras:
+   - CameraNum: 1
+     CameraName: CamPit Lane 04
+ - GroupNum: 18
+   GroupName: Chopper
+   Cameras:
+   - CameraNum: 1
+     CameraName: CamChopper
+ - GroupNum: 19
+   GroupName: Blimp
+   Cameras:
+   - CameraNum: 1
+     CameraName: CamBlimp
+ - GroupNum: 20
+   GroupName: Chase
+   Cameras:
+   - CameraNum: 1
+     CameraName: CamChase
+ - GroupNum: 21
+   GroupName: Far Chase
+   Cameras:
+   - CameraNum: 1
+     CameraName: CamFar Chase
+ - GroupNum: 22
+   GroupName: Rear Chase
+   Cameras:
+   - CameraNum: 1
+     CameraName: CamRear Chase
+
+RadioInfo:
+ SelectedRadioNum: 0
+ Radios:
+ - RadioNum: 0
+   HopCount: 2
+   NumFrequencies: 6
+   TunedToFrequencyNum: 0
+   ScanningIsOn: 1
+   Frequencies:
+   - FrequencyNum: 0
+     FrequencyName: "@ALLTEAMS"
+     Priority: 12
+     CarIdx: -1
+     EntryIdx: -1
+     ClubID: 0
+     CanScan: 1
+     CanSquawk: 1
+     Muted: 0
+     IsMutable: 1
+     IsDeletable: 0
+   - FrequencyNum: 1
+     FrequencyName: "@DRIVERS"
+     Priority: 15
+     CarIdx: -1
+     EntryIdx: -1
+     ClubID: 0
+     CanScan: 1
+     CanSquawk: 0
+     Muted: 0
+     IsMutable: 1
+     IsDeletable: 0
+   - FrequencyNum: 2
+     FrequencyName: "@TEAM"
+     Priority: 60
+     CarIdx: 10
+     EntryIdx: -1
+     ClubID: 0
+     CanScan: 1
+     CanSquawk: 1
+     Muted: 0
+     IsMutable: 0
+     IsDeletable: 0
+   - FrequencyNum: 3
+     FrequencyName: "@CLUB"
+     Priority: 20
+     CarIdx: -1
+     EntryIdx: -1
+     ClubID: 42
+     CanScan: 1
+     CanSquawk: 1
+     Muted: 0
+     IsMutable: 1
+     IsDeletable: 0
+   - FrequencyNum: 4
+     FrequencyName: "@RACECONTROL"
+     Priority: 80
+     CarIdx: -1
+     EntryIdx: -1
+     ClubID: 0
+     CanScan: 1
+     CanSquawk: 0
+     Muted: 0
+     IsMutable: 0
+     IsDeletable: 0
+   - FrequencyNum: 5
+     FrequencyName: "@PRIVATE"
+     Priority: 70
+     CarIdx: -1
+     EntryIdx: 10
+     ClubID: 0
+     CanScan: 1
+     CanSquawk: 1
+     Muted: 0
+     IsMutable: 0
+     IsDeletable: 0
+
+DriverInfo:
+ DriverCarIdx: 10
+ DriverUserID: 222557
+ PaceCarIdx: -1
+ DriverHeadPosX: 0.008
+ DriverHeadPosY: 0.276
+ DriverHeadPosZ: 0.540
+ DriverCarIdleRPM: 1100.000
+ DriverCarRedLine: 7820.000
+ DriverCarEngCylinderCount: 8
+ DriverCarFuelKgPerLtr: 0.750
+ DriverCarFuelMaxLtr: 130.000
+ DriverCarMaxFuelPct: 0.500
+ DriverCarSLFirstRPM: 6300.000
+ DriverCarSLShiftRPM: 6900.000
+ DriverCarSLLastRPM: 7000.000
+ DriverCarSLBlinkRPM: 7400.000
+ DriverCarVersion: 2020.12.07.01
+ DriverPitTrkPct: 0.032233
+ DriverCarEstLapTime: 123.2612
+ DriverSetupName: RAmer\21S1-GT3-RAmer-McLarenGT3-LT.sto
+ DriverSetupIsModified: 0
+ DriverSetupLoadTypeName: user
+ DriverSetupPassedTech: 1
+ DriverIncidentCount: 0
+ Drivers:
+ - CarIdx: 0
+   UserName: Luca Dierks
+   AbbrevName: Dierks, L
+   Initials: LD
+   UserID: 408788
+   TeamID: 0
+   TeamName: Luca Dierks
+   CarNumber: "1"
+   CarNumberRaw: 1
+   CarPath: lamborghinievogt3
+   CarClassID: 2708
+   CarID: 133
+   CarIsPaceCar: 0
+   CarIsAI: 0
+   CarScreenName: Lamborghini Huracan GT3 EVO
+   CarScreenNameShort: Lamborghini GT3
+   CarClassShortName: GT3 Class
+   CarClassRelSpeed: 52
+   CarClassLicenseLevel: 0
+   CarClassMaxFuelPct: 0.500 %
+   CarClassWeightPenalty: 0.000 kg
+   CarClassPowerAdjust: 0.000 %
+   CarClassDryTireSetLimit: 0 %
+   CarClassColor: 0xffffff
+   IRating: 1759
+   LicLevel: 19
+   LicSubLevel: 346
+   LicString: A 3.46
+   LicColor: 0x0153db
+   IsSpectator: 0
+   CarDesignStr: 1,b82f37,284a94,111111
+   HelmetDesignStr: 1,b82f37,284a94,111111
+   SuitDesignStr: 1,b82f37,284a94,111111
+   CarNumberDesignStr: 0,0,ffffff,777777,000000
+   CarSponsor_1: 0
+   CarSponsor_2: 0
+   ClubName: DE-AT-CH
+   DivisionName: Division 6
+   CurDriverIncidentCount: -1
+   TeamIncidentCount: -1
+ - CarIdx: 1
+   UserName: luis miguel Ortega Benito
+   AbbrevName: Benito, l
+   Initials: lB
+   UserID: 118556
+   TeamID: 0
+   TeamName: luis miguel Ortega Benito
+   CarNumber: "2"
+   CarNumberRaw: 2
+   CarPath: bmwm4gt3
+   CarClassID: 2708
+   CarID: 132
+   CarIsPaceCar: 0
+   CarIsAI: 0
+   CarScreenName: BMW M4 GT3
+   CarScreenNameShort: BMW M4 GT3
+   CarClassShortName: GT3 Class
+   CarClassRelSpeed: 52
+   CarClassLicenseLevel: 0
+   CarClassMaxFuelPct: 0.500 %
+   CarClassWeightPenalty: 0.000 kg
+   CarClassPowerAdjust: 0.000 %
+   CarClassDryTireSetLimit: 0 %
+   CarClassColor: 0xffffff
+   IRating: 3316
+   LicLevel: 18
+   LicSubLevel: 220
+   LicString: A 2.20
+   LicColor: 0x0153db
+   IsSpectator: 0
+   CarDesignStr: 1,ff0000,00ff00,0000ff
+   HelmetDesignStr: 3,f06e34,111111,ffffff
+   SuitDesignStr: 1,f06e34,111111,ffffff
+   CarNumberDesignStr: 0,0,ffffff,777777,000000
+   CarSponsor_1: 0
+   CarSponsor_2: 0
+   ClubName: Iberia
+   DivisionName: Division 1
+   CurDriverIncidentCount: -1
+   TeamIncidentCount: -1
+ - CarIdx: 2
+   UserName: Koldo González Gomez
+   AbbrevName: Gomez, K
+   Initials: KG
+   UserID: 227024
+   TeamID: 0
+   TeamName: Koldo González Gomez
+   CarNumber: "3"
+   CarNumberRaw: 3
+   CarPath: audir8gt3
+   CarClassID: 2708
+   CarID: 73
+   CarIsPaceCar: 0
+   CarIsAI: 0
+   CarScreenName: Audi R8 LMS
+   CarScreenNameShort: Audi R8 LMS
+   CarClassShortName: GT3 Class
+   CarClassRelSpeed: 52
+   CarClassLicenseLevel: 0
+   CarClassMaxFuelPct: 0.500 %
+   CarClassWeightPenalty: 0.000 kg
+   CarClassPowerAdjust: 0.000 %
+   CarClassDryTireSetLimit: 0 %
+   CarClassColor: 0xffffff
+   IRating: 2834
+   LicLevel: 18
+   LicSubLevel: 285
+   LicString: A 2.85
+   LicColor: 0x0153db
+   IsSpectator: 0
+   CarDesignStr: 3,ff4524,5e5c5a,000000,ff7805
+   HelmetDesignStr: 35,ffffff,5e5c5a,000000
+   SuitDesignStr: 22,000000,ffffff,9e0005
+   CarNumberDesignStr: 0,0,ffffff,777777,000000
+   CarSponsor_1: 45
+   CarSponsor_2: 106
+   ClubName: Iberia
+   DivisionName: Division 2
+   CurDriverIncidentCount: -1
+   TeamIncidentCount: -1
+ - CarIdx: 3
+   UserName: Garrit Hunt
+   AbbrevName: Hunt, G
+   Initials: GH
+   UserID: 502567
+   TeamID: 0
+   TeamName: Garrit Hunt
+   CarNumber: "24"
+   CarNumberRaw: 24
+   CarPath: lamborghinievogt3
+   CarClassID: 2708
+   CarID: 133
+   CarIsPaceCar: 0
+   CarIsAI: 0
+   CarScreenName: Lamborghini Huracan GT3 EVO
+   CarScreenNameShort: Lamborghini GT3
+   CarClassShortName: GT3 Class
+   CarClassRelSpeed: 52
+   CarClassLicenseLevel: 0
+   CarClassMaxFuelPct: 0.500 %
+   CarClassWeightPenalty: 0.000 kg
+   CarClassPowerAdjust: 0.000 %
+   CarClassDryTireSetLimit: 0 %
+   CarClassColor: 0xffffff
+   IRating: 872
+   LicLevel: 15
+   LicSubLevel: 345
+   LicString: B 3.45
+   LicColor: 0x00c702
+   IsSpectator: 0
+   CarDesignStr: 1,a32424,2c2c2c,05f3a6
+   HelmetDesignStr: 35,a32424,ffffff,fd0202
+   SuitDesignStr: 7,731b1b,811818,bd1b1b
+   CarNumberDesignStr: 25,0,777474,1a1919,750808
+   CarSponsor_1: 0
+   CarSponsor_2: 0
+   ClubName: Northwest
+   DivisionName: Division 10
+   CurDriverIncidentCount: -1
+   TeamIncidentCount: -1
+ - CarIdx: 4
+   UserName: Gastone Urbinati
+   AbbrevName: Urbinati, G
+   Initials: GU
+   UserID: 361556
+   TeamID: 0
+   TeamName: Gastone Urbinati
+   CarNumber: "5"
+   CarNumberRaw: 5
+   CarPath: lamborghinievogt3
+   CarClassID: 2708
+   CarID: 133
+   CarIsPaceCar: 0
+   CarIsAI: 0
+   CarScreenName: Lamborghini Huracan GT3 EVO
+   CarScreenNameShort: Lamborghini GT3
+   CarClassShortName: GT3 Class
+   CarClassRelSpeed: 52
+   CarClassLicenseLevel: 0
+   CarClassMaxFuelPct: 0.500 %
+   CarClassWeightPenalty: 0.000 kg
+   CarClassPowerAdjust: 0.000 %
+   CarClassDryTireSetLimit: 0 %
+   CarClassColor: 0xffffff
+   IRating: 1576
+   LicLevel: 19
+   LicSubLevel: 361
+   LicString: A 3.61
+   LicColor: 0x0153db
+   IsSpectator: 0
+   CarDesignStr: 20,000000,48d11a,000000
+   HelmetDesignStr: 22,ffffff,67e523,fd000a
+   SuitDesignStr: 10,ffffff,ff030c,2ce708
+   CarNumberDesignStr: 0,0,ffffff,777777,000000
+   CarSponsor_1: 0
+   CarSponsor_2: 0
+   ClubName: Italy
+   DivisionName: Division 7
+   CurDriverIncidentCount: -1
+   TeamIncidentCount: -1
+ - CarIdx: 5
+   UserName: Quinn Riding
+   AbbrevName: Riding, Q
+   Initials: QR
+   UserID: 354831
+   TeamID: 0
+   TeamName: Quinn Riding
+   CarNumber: "99"
+   CarNumberRaw: 99
+   CarPath: ferrari488gt3
+   CarClassID: 2708
+   CarID: 94
+   CarIsPaceCar: 0
+   CarIsAI: 0
+   CarScreenName: Ferrari 488 GT3
+   CarScreenNameShort: Ferrari 488 GT3
+   CarClassShortName: GT3 Class
+   CarClassRelSpeed: 52
+   CarClassLicenseLevel: 0
+   CarClassMaxFuelPct: 0.500 %
+   CarClassWeightPenalty: 0.000 kg
+   CarClassPowerAdjust: 0.000 %
+   CarClassDryTireSetLimit: 0 %
+   CarClassColor: 0xffffff
+   IRating: 1502
+   LicLevel: 14
+   LicSubLevel: 233
+   LicString: B 2.33
+   LicColor: 0x00c702
+   IsSpectator: 0
+   CarDesignStr: 19,5fb2ff,ff0000,000000;ffffff
+   HelmetDesignStr: 18,ffffff,000000,fffd00
+   SuitDesignStr: 3,ffffff,000000,111111
+   CarNumberDesignStr: 0,0,ffffff,777777,000000
+   CarSponsor_1: 0
+   CarSponsor_2: 0
+   ClubName: Canada
+   DivisionName: Division 4
+   CurDriverIncidentCount: -1
+   TeamIncidentCount: -1
+ - CarIdx: 6
+   UserName: Pascal Feiss
+   AbbrevName: Feiss, P
+   Initials: PF
+   UserID: 384696
+   TeamID: 0
+   TeamName: Pascal Feiss
+   CarNumber: "30"
+   CarNumberRaw: 30
+   CarPath: audir8gt3
+   CarClassID: 2708
+   CarID: 73
+   CarIsPaceCar: 0
+   CarIsAI: 0
+   CarScreenName: Audi R8 LMS
+   CarScreenNameShort: Audi R8 LMS
+   CarClassShortName: GT3 Class
+   CarClassRelSpeed: 52
+   CarClassLicenseLevel: 0
+   CarClassMaxFuelPct: 0.500 %
+   CarClassWeightPenalty: 0.000 kg
+   CarClassPowerAdjust: 0.000 %
+   CarClassDryTireSetLimit: 0 %
+   CarClassColor: 0xffffff
+   IRating: 2275
+   LicLevel: 20
+   LicSubLevel: 451
+   LicString: A 4.51
+   LicColor: 0x0153db
+   IsSpectator: 0
+   CarDesignStr: 1,ffffff,111111,fc0706
+   HelmetDesignStr: 14,b2102c,e5df10,b3b3b3
+   SuitDesignStr: 21,f50000,f2f2f2,1c1917
+   CarNumberDesignStr: 0,0,ffffff,777777,000000
+   CarSponsor_1: 0
+   CarSponsor_2: 0
+   ClubName: DE-AT-CH
+   DivisionName: Division 3
+   CurDriverIncidentCount: -1
+   TeamIncidentCount: -1
+ - CarIdx: 7
+   UserName: Rob Sharp
+   AbbrevName: Sharp, R
+   Initials: RS
+   UserID: 229610
+   TeamID: 0
+   TeamName: Rob Sharp
+   CarNumber: "22"
+   CarNumberRaw: 22
+   CarPath: ferrari488gt3
+   CarClassID: 2708
+   CarID: 94
+   CarIsPaceCar: 0
+   CarIsAI: 0
+   CarScreenName: Ferrari 488 GT3
+   CarScreenNameShort: Ferrari 488 GT3
+   CarClassShortName: GT3 Class
+   CarClassRelSpeed: 52
+   CarClassLicenseLevel: 0
+   CarClassMaxFuelPct: 0.500 %
+   CarClassWeightPenalty: 0.000 kg
+   CarClassPowerAdjust: 0.000 %
+   CarClassDryTireSetLimit: 0 %
+   CarClassColor: 0xffffff
+   IRating: 2170
+   LicLevel: 19
+   LicSubLevel: 318
+   LicString: A 3.18
+   LicColor: 0x0153db
+   IsSpectator: 0
+   CarDesignStr: 1,d80000,000000,fffefe
+   HelmetDesignStr: 8,000000,0007a3,fffefe
+   SuitDesignStr: 13,1a21ff,000000,db0005
+   CarNumberDesignStr: 0,0,ffffff,777777,000000
+   CarSponsor_1: 0
+   CarSponsor_2: 0
+   ClubName: UK and I
+   DivisionName: Division 3
+   CurDriverIncidentCount: -1
+   TeamIncidentCount: -1
+ - CarIdx: 8
+   UserName: Kenny Cabrera
+   AbbrevName: Cabrera, K
+   Initials: KC
+   UserID: 363531
+   TeamID: 0
+   TeamName: Kenny Cabrera
+   CarNumber: "21"
+   CarNumberRaw: 21
+   CarPath: bmwm4gt3
+   CarClassID: 2708
+   CarID: 132
+   CarIsPaceCar: 0
+   CarIsAI: 0
+   CarScreenName: BMW M4 GT3
+   CarScreenNameShort: BMW M4 GT3
+   CarClassShortName: GT3 Class
+   CarClassRelSpeed: 52
+   CarClassLicenseLevel: 0
+   CarClassMaxFuelPct: 0.500 %
+   CarClassWeightPenalty: 0.000 kg
+   CarClassPowerAdjust: 0.000 %
+   CarClassDryTireSetLimit: 0 %
+   CarClassColor: 0xffffff
+   IRating: 927
+   LicLevel: 17
+   LicSubLevel: 198
+   LicString: A 1.98
+   LicColor: 0x0153db
+   IsSpectator: 0
+   CarDesignStr: 2,0017f8,000000,ce0000.c70909
+   HelmetDesignStr: 60,090094,c40505,000000
+   SuitDesignStr: 8,111010,04288e,cc0505
+   CarNumberDesignStr: 3,3,0017f8,777777,000000
+   CarSponsor_1: 106
+   CarSponsor_2: 107
+   ClubName: Florida
+   DivisionName: Division 7
+   CurDriverIncidentCount: -1
+   TeamIncidentCount: -1
+ - CarIdx: 9
+   UserName: Philipp Röhrig
+   AbbrevName: Röhrig, P
+   Initials: PR
+   UserID: 564561
+   TeamID: 0
+   TeamName: Philipp Röhrig
+   CarNumber: "10"
+   CarNumberRaw: 10
+   CarPath: bmwm4gt3
+   CarClassID: 2708
+   CarID: 132
+   CarIsPaceCar: 0
+   CarIsAI: 0
+   CarScreenName: BMW M4 GT3
+   CarScreenNameShort: BMW M4 GT3
+   CarClassShortName: GT3 Class
+   CarClassRelSpeed: 52
+   CarClassLicenseLevel: 0
+   CarClassMaxFuelPct: 0.500 %
+   CarClassWeightPenalty: 0.000 kg
+   CarClassPowerAdjust: 0.000 %
+   CarClassDryTireSetLimit: 0 %
+   CarClassColor: 0xffffff
+   IRating: 1245
+   LicLevel: 18
+   LicSubLevel: 282
+   LicString: A 2.82
+   LicColor: 0x0153db
+   IsSpectator: 0
+   CarDesignStr: 1,ff0000,00ff00,0000ff
+   HelmetDesignStr: 35,000000,88ff00,d71010
+   SuitDesignStr: 12,000000,000000,d70808
+   CarNumberDesignStr: 0,0,ffffff,777777,000000
+   CarSponsor_1: 0
+   CarSponsor_2: 0
+   ClubName: DE-AT-CH
+   DivisionName: Division 7
+   CurDriverIncidentCount: -1
+   TeamIncidentCount: -1
+ - CarIdx: 10
+   UserName: Merlin Cooper
+   AbbrevName: Cooper, M
+   Initials: MC
+   UserID: 222557
+   TeamID: 0
+   TeamName: Merlin Cooper
+   CarNumber: "11"
+   CarNumberRaw: 11
+   CarPath: mclarenmp4
+   CarClassID: 2708
+   CarID: 43
+   CarIsPaceCar: 0
+   CarIsAI: 0
+   CarScreenName: McLaren MP4-12C GT3
+   CarScreenNameShort: McLaren MP4-12C
+   CarClassShortName: GT3 Class
+   CarClassRelSpeed: 52
+   CarClassLicenseLevel: 0
+   CarClassMaxFuelPct: 0.500 %
+   CarClassWeightPenalty: 0.000 kg
+   CarClassPowerAdjust: 0.000 %
+   CarClassDryTireSetLimit: 0 %
+   CarClassColor: 0xffffff
+   IRating: 2380
+   LicLevel: 20
+   LicSubLevel: 499
+   LicString: A 4.99
+   LicColor: 0x0153db
+   IsSpectator: 0
+   CarDesignStr: 5,050505,9a0200,2a3795;9a0200
+   HelmetDesignStr: 7,9b9b9b,f9b60d,ffffff
+   SuitDesignStr: 1,280c47,f9b60d,cc2525
+   CarNumberDesignStr: 0,0,ffffff,777777,000000
+   CarSponsor_1: 45
+   CarSponsor_2: 45
+   ClubName: DE-AT-CH
+   DivisionName: Division 3
+   CurDriverIncidentCount: 0
+   TeamIncidentCount: 0
+ - CarIdx: 11
+   UserName: Zdenek Kaska
+   AbbrevName: Kaska, Z
+   Initials: ZK
+   UserID: 536693
+   TeamID: 0
+   TeamName: Zdenek Kaska
+   CarNumber: "12"
+   CarNumberRaw: 12
+   CarPath: bmwm4gt3
+   CarClassID: 2708
+   CarID: 132
+   CarIsPaceCar: 0
+   CarIsAI: 0
+   CarScreenName: BMW M4 GT3
+   CarScreenNameShort: BMW M4 GT3
+   CarClassShortName: GT3 Class
+   CarClassRelSpeed: 52
+   CarClassLicenseLevel: 0
+   CarClassMaxFuelPct: 0.500 %
+   CarClassWeightPenalty: 0.000 kg
+   CarClassPowerAdjust: 0.000 %
+   CarClassDryTireSetLimit: 0 %
+   CarClassColor: 0xffffff
+   IRating: 2991
+   LicLevel: 20
+   LicSubLevel: 419
+   LicString: A 4.19
+   LicColor: 0x0153db
+   IsSpectator: 0
+   CarDesignStr: 1,ff0000,00ff00,0000ff
+   HelmetDesignStr: 36,6d6e71,ed2129,000000
+   SuitDesignStr: 1,6d6e71,ed2129,000000
+   CarNumberDesignStr: 0,0,ffffff,777777,000000
+   CarSponsor_1: 0
+   CarSponsor_2: 0
+   ClubName: Central-Eastern Europe
+   DivisionName: Division 2
+   CurDriverIncidentCount: -1
+   TeamIncidentCount: -1
+ - CarIdx: 12
+   UserName: Ben Casters
+   AbbrevName: Casters, B
+   Initials: BC
+   UserID: 411074
+   TeamID: 0
+   TeamName: Ben Casters
+   CarNumber: "13"
+   CarNumberRaw: 13
+   CarPath: mercedesamggt3
+   CarClassID: 2708
+   CarID: 72
+   CarIsPaceCar: 0
+   CarIsAI: 0
+   CarScreenName: Mercedes AMG GT3
+   CarScreenNameShort: Mercedes AMG GT3
+   CarClassShortName: GT3 Class
+   CarClassRelSpeed: 52
+   CarClassLicenseLevel: 0
+   CarClassMaxFuelPct: 0.500 %
+   CarClassWeightPenalty: 0.000 kg
+   CarClassPowerAdjust: 0.000 %
+   CarClassDryTireSetLimit: 0 %
+   CarClassColor: 0xffffff
+   IRating: 2063
+   LicLevel: 19
+   LicSubLevel: 328
+   LicString: A 3.28
+   LicColor: 0x0153db
+   IsSpectator: 0
+   CarDesignStr: 14,000000,00a7ba,ffffff.ffffff
+   HelmetDesignStr: 49,ffffff,ffffff,ffffff
+   SuitDesignStr: 24,000000,000000,ffffff
+   CarNumberDesignStr: 0,0,ffffff,777777,000000
+   CarSponsor_1: 0
+   CarSponsor_2: 0
+   ClubName: Benelux
+   DivisionName: Division 3
+   CurDriverIncidentCount: -1
+   TeamIncidentCount: -1
+ - CarIdx: 13
+   UserName: Varun Gupta
+   AbbrevName: Gupta, V
+   Initials: VG
+   UserID: 496910
+   TeamID: 0
+   TeamName: Varun Gupta
+   CarNumber: "6"
+   CarNumberRaw: 6
+   CarPath: mercedesamggt3
+   CarClassID: 2708
+   CarID: 72
+   CarIsPaceCar: 0
+   CarIsAI: 0
+   CarScreenName: Mercedes AMG GT3
+   CarScreenNameShort: Mercedes AMG GT3
+   CarClassShortName: GT3 Class
+   CarClassRelSpeed: 52
+   CarClassLicenseLevel: 0
+   CarClassMaxFuelPct: 0.500 %
+   CarClassWeightPenalty: 0.000 kg
+   CarClassPowerAdjust: 0.000 %
+   CarClassDryTireSetLimit: 0 %
+   CarClassColor: 0xffffff
+   IRating: 1704
+   LicLevel: 15
+   LicSubLevel: 346
+   LicString: B 3.46
+   LicColor: 0x00c702
+   IsSpectator: 0
+   CarDesignStr: 0,b1b8cb,000000,7b7b7b
+   HelmetDesignStr: 1,000000,ffffff,7b7b7b
+   SuitDesignStr: 30,ffffff,000000,012255
+   CarNumberDesignStr: 0,0,ffffff,777777,000000
+   CarSponsor_1: 0
+   CarSponsor_2: 0
+   ClubName: Virginias
+   DivisionName: Division 4
+   CurDriverIncidentCount: -1
+   TeamIncidentCount: -1
+ - CarIdx: 14
+   UserName: Neil Cooper
+   AbbrevName: Cooper, N
+   Initials: NC
+   UserID: 127961
+   TeamID: 0
+   TeamName: Neil Cooper
+   CarNumber: "15"
+   CarNumberRaw: 15
+   CarPath: bmwm4gt3
+   CarClassID: 2708
+   CarID: 132
+   CarIsPaceCar: 0
+   CarIsAI: 0
+   CarScreenName: BMW M4 GT3
+   CarScreenNameShort: BMW M4 GT3
+   CarClassShortName: GT3 Class
+   CarClassRelSpeed: 52
+   CarClassLicenseLevel: 0
+   CarClassMaxFuelPct: 0.500 %
+   CarClassWeightPenalty: 0.000 kg
+   CarClassPowerAdjust: 0.000 %
+   CarClassDryTireSetLimit: 0 %
+   CarClassColor: 0xffffff
+   IRating: 2543
+   LicLevel: 19
+   LicSubLevel: 329
+   LicString: A 3.29
+   LicColor: 0x0153db
+   IsSpectator: 0
+   CarDesignStr: 10,2a3795,ed2129,ffffff
+   HelmetDesignStr: 64,000000,20252b,1be807
+   SuitDesignStr: 9,000000,20252b,1be807
+   CarNumberDesignStr: 0,0,ffffff,777777,000000
+   CarSponsor_1: 0
+   CarSponsor_2: 0
+   ClubName: UK and I
+   DivisionName: Division 2
+   CurDriverIncidentCount: -1
+   TeamIncidentCount: -1
+ - CarIdx: 15
+   UserName: Tanel Tomson
+   AbbrevName: Tomson, T
+   Initials: TT
+   UserID: 577408
+   TeamID: 0
+   TeamName: Tanel Tomson
+   CarNumber: "16"
+   CarNumberRaw: 16
+   CarPath: audir8gt3
+   CarClassID: 2708
+   CarID: 73
+   CarIsPaceCar: 0
+   CarIsAI: 0
+   CarScreenName: Audi R8 LMS
+   CarScreenNameShort: Audi R8 LMS
+   CarClassShortName: GT3 Class
+   CarClassRelSpeed: 52
+   CarClassLicenseLevel: 0
+   CarClassMaxFuelPct: 0.500 %
+   CarClassWeightPenalty: 0.000 kg
+   CarClassPowerAdjust: 0.000 %
+   CarClassDryTireSetLimit: 0 %
+   CarClassColor: 0xffffff
+   IRating: 2094
+   LicLevel: 19
+   LicSubLevel: 374
+   LicString: A 3.74
+   LicColor: 0x0153db
+   IsSpectator: 0
+   CarDesignStr: 14,ffffff,ffffff,ffffff,ffffff
+   HelmetDesignStr: 20,000000,000000,ffffff
+   SuitDesignStr: 1,ffffff,0049ff,000000
+   CarNumberDesignStr: 0,0,ffffff,777777,000000
+   CarSponsor_1: 0
+   CarSponsor_2: 0
+   ClubName: Central-Eastern Europe
+   DivisionName: Division 5
+   CurDriverIncidentCount: -1
+   TeamIncidentCount: -1
+ - CarIdx: 16
+   UserName: Julius Fritzsche
+   AbbrevName: Fritzsche, J
+   Initials: JF
+   UserID: 334347
+   TeamID: 0
+   TeamName: Julius Fritzsche
+   CarNumber: "420"
+   CarNumberRaw: 420
+   CarPath: audir8gt3
+   CarClassID: 2708
+   CarID: 73
+   CarIsPaceCar: 0
+   CarIsAI: 0
+   CarScreenName: Audi R8 LMS
+   CarScreenNameShort: Audi R8 LMS
+   CarClassShortName: GT3 Class
+   CarClassRelSpeed: 52
+   CarClassLicenseLevel: 0
+   CarClassMaxFuelPct: 0.500 %
+   CarClassWeightPenalty: 0.000 kg
+   CarClassPowerAdjust: 0.000 %
+   CarClassDryTireSetLimit: 0 %
+   CarClassColor: 0xffffff
+   IRating: 5154
+   LicLevel: 19
+   LicSubLevel: 342
+   LicString: A 3.42
+   LicColor: 0x0153db
+   IsSpectator: 0
+   CarDesignStr: 21,f81bcb,00f025,00f1fa;ffffff
+   HelmetDesignStr: 36,272b78,d9d600,ff1a10
+   SuitDesignStr: 25,000000,f80000,2a3795
+   CarNumberDesignStr: 0,0,ffffff,777777,000000
+   CarSponsor_1: 106
+   CarSponsor_2: 80
+   ClubName: DE-AT-CH
+   DivisionName: Division 1
+   CurDriverIncidentCount: -1
+   TeamIncidentCount: -1
+ - CarIdx: 17
+   UserName: Nono Cortes
+   AbbrevName: Cortes, N
+   Initials: NC
+   UserID: 356616
+   TeamID: 0
+   TeamName: Nono Cortes
+   CarNumber: "18"
+   CarNumberRaw: 18
+   CarPath: mclarenmp4
+   CarClassID: 2708
+   CarID: 43
+   CarIsPaceCar: 0
+   CarIsAI: 0
+   CarScreenName: McLaren MP4-12C GT3
+   CarScreenNameShort: McLaren MP4-12C
+   CarClassShortName: GT3 Class
+   CarClassRelSpeed: 52
+   CarClassLicenseLevel: 0
+   CarClassMaxFuelPct: 0.500 %
+   CarClassWeightPenalty: 0.000 kg
+   CarClassPowerAdjust: 0.000 %
+   CarClassDryTireSetLimit: 0 %
+   CarClassColor: 0xffffff
+   IRating: 1646
+   LicLevel: 20
+   LicSubLevel: 418
+   LicString: A 4.18
+   LicColor: 0x0153db
+   IsSpectator: 0
+   CarDesignStr: 6,f6f6f5,0d0002,c40427,ffffff
+   HelmetDesignStr: 53,0d0002,f6f6f5,c40427
+   SuitDesignStr: 25,ed2129,ecf202,ecf202
+   CarNumberDesignStr: 0,0,ffffff,777777,000000
+   CarSponsor_1: 83
+   CarSponsor_2: 178
+   ClubName: Iberia
+   DivisionName: Division 3
+   CurDriverIncidentCount: -1
+   TeamIncidentCount: -1
+ - CarIdx: 18
+   UserName: Marcel Zaparty
+   AbbrevName: Zaparty, M
+   Initials: MZ
+   UserID: 578091
+   TeamID: 0
+   TeamName: Marcel Zaparty
+   CarNumber: "19"
+   CarNumberRaw: 19
+   CarPath: bmwm4gt3
+   CarClassID: 2708
+   CarID: 132
+   CarIsPaceCar: 0
+   CarIsAI: 0
+   CarScreenName: BMW M4 GT3
+   CarScreenNameShort: BMW M4 GT3
+   CarClassShortName: GT3 Class
+   CarClassRelSpeed: 52
+   CarClassLicenseLevel: 0
+   CarClassMaxFuelPct: 0.500 %
+   CarClassWeightPenalty: 0.000 kg
+   CarClassPowerAdjust: 0.000 %
+   CarClassDryTireSetLimit: 0 %
+   CarClassColor: 0xffffff
+   IRating: 1341
+   LicLevel: 14
+   LicSubLevel: 236
+   LicString: B 2.36
+   LicColor: 0x00c702
+   IsSpectator: 0
+   CarDesignStr: 1,ff0000,00ff00,0000ff
+   HelmetDesignStr: 61,fbfbfb,f70101,000000
+   SuitDesignStr: 30,dddddd,e50101,000000
+   CarNumberDesignStr: 0,0,ffffff,777777,000000
+   CarSponsor_1: 0
+   CarSponsor_2: 0
+   ClubName: DE-AT-CH
+   DivisionName: Division 5
+   CurDriverIncidentCount: -1
+   TeamIncidentCount: -1
+ - CarIdx: 19
+   UserName: Paul Fanning
+   AbbrevName: Fanning, P
+   Initials: PF
+   UserID: 417516
+   TeamID: 0
+   TeamName: Paul Fanning
+   CarNumber: "20"
+   CarNumberRaw: 20
+   CarPath: audir8gt3
+   CarClassID: 2708
+   CarID: 73
+   CarIsPaceCar: 0
+   CarIsAI: 0
+   CarScreenName: Audi R8 LMS
+   CarScreenNameShort: Audi R8 LMS
+   CarClassShortName: GT3 Class
+   CarClassRelSpeed: 52
+   CarClassLicenseLevel: 0
+   CarClassMaxFuelPct: 0.500 %
+   CarClassWeightPenalty: 0.000 kg
+   CarClassPowerAdjust: 0.000 %
+   CarClassDryTireSetLimit: 0 %
+   CarClassColor: 0xffffff
+   IRating: 1681
+   LicLevel: 19
+   LicSubLevel: 339
+   LicString: A 3.39
+   LicColor: 0x0153db
+   IsSpectator: 0
+   CarDesignStr: 1,256720,05f121,0c0c0c
+   HelmetDesignStr: 12,ffff2e,0c0c0c,939b93
+   SuitDesignStr: 19,939b93,000000,ffff2e
+   CarNumberDesignStr: 0,0,ffffff,777777,000000
+   CarSponsor_1: 0
+   CarSponsor_2: 0
+   ClubName: UK and I
+   DivisionName: Division 4
+   CurDriverIncidentCount: -1
+   TeamIncidentCount: -1
+ - CarIdx: 20
+   UserName: Leonardo N Pinho
+   AbbrevName: Pinho, L
+   Initials: LP
+   UserID: 558482
+   TeamID: 0
+   TeamName: Leonardo N Pinho
+   CarNumber: "23"
+   CarNumberRaw: 23
+   CarPath: ferrari488gt3
+   CarClassID: 2708
+   CarID: 94
+   CarIsPaceCar: 0
+   CarIsAI: 0
+   CarScreenName: Ferrari 488 GT3
+   CarScreenNameShort: Ferrari 488 GT3
+   CarClassShortName: GT3 Class
+   CarClassRelSpeed: 52
+   CarClassLicenseLevel: 0
+   CarClassMaxFuelPct: 0.500 %
+   CarClassWeightPenalty: 0.000 kg
+   CarClassPowerAdjust: 0.000 %
+   CarClassDryTireSetLimit: 0 %
+   CarClassColor: 0xffffff
+   IRating: 1472
+   LicLevel: 14
+   LicSubLevel: 245
+   LicString: B 2.45
+   LicColor: 0x00c702
+   IsSpectator: 0
+   CarDesignStr: 10,008516,ebff00,001fff
+   HelmetDesignStr: 53,008516,ebff00,001fff
+   SuitDesignStr: 17,e9ff12,0b00ff,007e1b
+   CarNumberDesignStr: 0,0,ffffff,777777,000000
+   CarSponsor_1: 0
+   CarSponsor_2: 0
+   ClubName: Brazil
+   DivisionName: Division 5
+   CurDriverIncidentCount: -1
+   TeamIncidentCount: -1
+ - CarIdx: 21
+   UserName: Stephen M Fisher
+   AbbrevName: Fisher, S
+   Initials: SF
+   UserID: 535603
+   TeamID: 0
+   TeamName: Stephen M Fisher
+   CarNumber: "25"
+   CarNumberRaw: 25
+   CarPath: mercedesamggt3
+   CarClassID: 2708
+   CarID: 72
+   CarIsPaceCar: 0
+   CarIsAI: 0
+   CarScreenName: Mercedes AMG GT3
+   CarScreenNameShort: Mercedes AMG GT3
+   CarClassShortName: GT3 Class
+   CarClassRelSpeed: 52
+   CarClassLicenseLevel: 0
+   CarClassMaxFuelPct: 0.500 %
+   CarClassWeightPenalty: 0.000 kg
+   CarClassPowerAdjust: 0.000 %
+   CarClassDryTireSetLimit: 0 %
+   CarClassColor: 0xffffff
+   IRating: 1751
+   LicLevel: 18
+   LicSubLevel: 243
+   LicString: A 2.43
+   LicColor: 0x0153db
+   IsSpectator: 0
+   CarDesignStr: 1,00faff,04ff10,ffffff,000000
+   HelmetDesignStr: 12,00faff,04ff10,ffffff
+   SuitDesignStr: 12,00faff,04ff10,ffffff
+   CarNumberDesignStr: 0,0,ffffff,777777,000000
+   CarSponsor_1: 49
+   CarSponsor_2: 145
+   ClubName: New York
+   DivisionName: Division 4
+   CurDriverIncidentCount: -1
+   TeamIncidentCount: -1
+
+SplitTimeInfo:
+ Sectors:
+ - SectorNum: 0
+   SectorStartPct: 0.000000
+ - SectorNum: 1
+   SectorStartPct: 0.143086
+ - SectorNum: 2
+   SectorStartPct: 0.326681
+ - SectorNum: 3
+   SectorStartPct: 0.478771
+ - SectorNum: 4
+   SectorStartPct: 0.760854
+ - SectorNum: 5
+   SectorStartPct: 0.865939
+
+CarSetup:
+ UpdateCount: 4
+ TiresAero:
+  LeftFront:
+   StartingPressure: 141 kPa
+   LastHotPressure: 141 kPa
+   LastTempsOMI: 44C, 44C, 44C
+   TreadRemaining: 100%, 100%, 100%
+  LeftRear:
+   StartingPressure: 141 kPa
+   LastHotPressure: 141 kPa
+   LastTempsOMI: 44C, 44C, 44C
+   TreadRemaining: 100%, 100%, 100%
+  RightFront:
+   StartingPressure: 141 kPa
+   LastHotPressure: 141 kPa
+   LastTempsIMO: 44C, 44C, 44C
+   TreadRemaining: 100%, 100%, 100%
+  RightRear:
+   StartingPressure: 141 kPa
+   LastHotPressure: 141 kPa
+   LastTempsIMO: 44C, 44C, 44C
+   TreadRemaining: 100%, 100%, 100%
+  AeroBalanceCalc:
+   FrontRhAtSpeed: 50 mm
+   RearRhAtSpeed: 85 mm
+   WingSetting: 4 degrees
+   FrontDownforce: 50.10%
+ Chassis:
+  Front:
+   ArbArms: 1
+   ToeIn: -0.2 mm
+   FrontMasterCyl: 19.1 mm
+   RearMasterCyl: 19.1 mm
+   BrakePads: Low friction
+   CrossWeight: 50.0%
+  LeftFront:
+   CornerWeight: 2900 N
+   RideHeight: 50.5 mm
+   SpringPerchOffset: 109.5 mm
+   SpringRate: 210 N/mm
+   LsCompDamping: 10 clicks
+   HsCompDamping: 10 clicks
+   LsRbdDamping: 10 clicks
+   HsRbdDamping: 10 clicks
+   Camber: -5.0 deg
+  LeftRear:
+   CornerWeight: 4034 N
+   RideHeight: 82.0 mm
+   SpringPerchOffset: 108.0 mm
+   SpringRate: 193 N/mm
+   LsCompDamping: 0 clicks
+   HsCompDamping: 10 clicks
+   LsRbdDamping: 5 clicks
+   HsRbdDamping: 10 clicks
+   Camber: -4.0 deg
+  InCarDials:
+   BrakePressureBias: 46.3%
+   AbsSetting: 10
+   TractionControlSetting: 5 (TC)
+   ThrottleShapeSetting: 10 (TPS)
+   EngineMapSetting: 1 (MAP)
+  RightFront:
+   CornerWeight: 2900 N
+   RideHeight: 50.5 mm
+   SpringPerchOffset: 109.5 mm
+   SpringRate: 210 N/mm
+   LsCompDamping: 10 clicks
+   HsCompDamping: 10 clicks
+   LsRbdDamping: 10 clicks
+   HsRbdDamping: 10 clicks
+   Camber: -5.0 deg
+  RightRear:
+   CornerWeight: 4034 N
+   RideHeight: 82.0 mm
+   SpringPerchOffset: 108.0 mm
+   SpringRate: 193 N/mm
+   LsCompDamping: 0 clicks
+   HsCompDamping: 10 clicks
+   LsRbdDamping: 5 clicks
+   HsRbdDamping: 10 clicks
+   Camber: -4.0 deg
+  Rear:
+   FuelLevel: 65.0 L
+   ArbArms: 4
+   ToeIn: +0.1 mm
+   DiffPreload: 70 Nm
+   WingSetting: 4 degrees
+
+...
